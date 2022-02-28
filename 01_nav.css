@@ -1,0 +1,53 @@
+.nav_container {
+  flex-basis: 1320px;
+  justify-content: flex-start;
+  min-height: 60px;
+}
+
+nav li {
+  color: gray;
+  font-size: 12pt;
+  opacity: 0.5;
+  display: inline;
+  padding: 15px;
+}
+
+nav li:hover {
+  color: rgb(92, 92, 92);
+  font-weight: 700;
+  font-size: 12.5pt;
+  opacity: 1;
+  display: inline;
+  transition: 0.35s;
+}
+
+.logo {
+  padding: 5px 5px 5px 27px;
+  width: 38px;
+}
+
+.logo:hover {
+  width: 41px;
+  transition: 0.1s;
+}
+
+@media (max-width: 470px) {
+  .logo {
+    padding: 4px 4px 4px 7px;
+    width: 27px;
+  }
+  .logo:hover {
+    width: 30px;
+    transition: 0.1s;
+  }
+
+  nav li {
+    font-size: 10pt;
+    padding: 7px;
+  }
+
+  nav li:hover {
+    font-size: 12pt;
+    margin: 0 7px;
+  }
+}

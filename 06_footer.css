@@ -1,0 +1,11 @@
+.footer {
+  flex-basis: 1320px;
+  background-color: brown;
+
+  text-align: center;
+  margin-top: 1px;
+  padding: 8px 0;
+
+  color: burlywood;
+  font-weight: 500;
+}
