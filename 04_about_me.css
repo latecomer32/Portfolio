@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+.about_me p a {
+  color: blue;
+}
 .about_header {
   flex-basis: 1320px;
   min-height: 250px;
