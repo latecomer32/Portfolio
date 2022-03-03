@@ -14,6 +14,18 @@
   line-height: 210%;
   font-size: 30pt;
 }
+
+.about_end {
+  flex-basis: 1280px;
+  text-align: center;
+  line-height: 200%;
+}
+
+.about_end > b {
+  line-height: 250%;
+  font-size: 30pt;
+}
+
 .about_empty {
   margin-top: 75px;
   margin-bottom: 75px;
